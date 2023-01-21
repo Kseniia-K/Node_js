@@ -9,8 +9,40 @@
 
 // const os = require("os")
 
-// let userName= os.userInfo().username
+// let userName = os.userInfo().username
 
 // console.log(userName)
 
-const greeting = require("./greeting")
+// const os = require("os");
+// const greeting = require("./greeting");
+
+// let userName = os.userInfo().username;
+
+// console.log(`Дата запроса: ${greeting.date}`);
+// console.log(greeting.getMessage(userName));
+
+// const User = require("./user.js");
+
+// let name = new User("Kseniia", 17);
+// name.sayHi();
+
+// var greeting1 = require("./greeting.js");
+// console.log(`Hello ${greeting1.name}`);
+
+// var greeting2 = require("./greeting.js");
+// greeting2.name = "Bob";
+
+// console.log(`Hello ${greeting2.name}`);
+// console.log(`Hello ${greeting1.name}`);
+
+// const welcome = require("./welcome");
+
+// welcome.getMorningMessage();
+// welcome.getEveningMessage();
+
+const greeting = require("./greeting");
+
+global.name = "Kseniia";
+
+global.console.log(date);
+console.log(greeting.getMessage());
